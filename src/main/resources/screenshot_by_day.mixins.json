@@ -3,7 +3,7 @@
 	"package": "jwn.screenshot_by_day.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+      "ScreenshotRecorderMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
