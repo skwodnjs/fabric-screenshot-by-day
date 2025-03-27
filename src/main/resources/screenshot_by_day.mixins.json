@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "jwn.screenshot_by_day.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
