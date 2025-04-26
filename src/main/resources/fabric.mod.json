@@ -3,18 +3,18 @@
 	"id": "screenshot_by_day",
 	"version": "${version}",
 	"name": "Screenshot by Day",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Automatically saves your screenshots into daily folders.",
 	"authors": [
-		"Me!"
+		"JWN"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://skwodnjs.github.io/",
+		"sources": "https://github.com/skwodnjs/fabric-screenshot-by-day"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/screenshot_by_day/icon.png",
-	"environment": "*",
-	"entrypoints": {
+	"environment": "client",
+	"entrypoint": {
 		"client": [
 			"jwn.screenshot_by_day.ScreenshotByDayClient"
 		]
@@ -23,8 +23,8 @@
 		"screenshot_by_day.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.10",
-		"minecraft": "~1.21.4",
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
