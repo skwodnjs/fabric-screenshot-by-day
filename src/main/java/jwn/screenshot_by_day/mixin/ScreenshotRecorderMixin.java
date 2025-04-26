@@ -11,10 +11,6 @@ import java.time.format.DateTimeFormatter;
 
 @Mixin(ScreenshotRecorder.class)
 public class ScreenshotRecorderMixin {
-	/**
-	 * @author JWN
-	 * @reason Store screenshots into yyyy-MM-dd folders
-	 */
 	@Overwrite
 	private static File getScreenshotFilename(File directory) {
 		String today = LocalDate.now().format(DateTimeFormatter.ISO_DATE); // 예: "2025-03-27"
